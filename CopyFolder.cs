@@ -9,6 +9,7 @@ using distilled_community_recorder.Libs;
 
 using static System.Environment;
 using System.Diagnostics;
+using distilled_community_recorder;
 
 namespace CopyFolder
 {
@@ -60,21 +61,7 @@ namespace CopyFolder
                 System.IO.FileInfo fi = new System.IO.FileInfo(@dest + "\\" + name);
                             */
 
-
-
-
-
             }
-
-
-
-
-
-
-
-
-
-
             // คัดลอกโฟลเดอร์ย่อยทั้งหมดใน source ไปยัง dest
             /*    string[] dirs = Directory.GetDirectories(source);
                 foreach (string dir in dirs)
@@ -86,5 +73,7 @@ namespace CopyFolder
                 }
             */
         }
+
+       
     }
 }

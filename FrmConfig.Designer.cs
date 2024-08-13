@@ -62,11 +62,11 @@
             button6 = new Button();
             button7 = new Button();
             panelLeft = new Panel();
+            label15 = new Label();
             label14 = new Label();
             label12 = new Label();
             panelRight = new Panel();
             label13 = new Label();
-            label15 = new Label();
             panelLeft.SuspendLayout();
             panelRight.SuspendLayout();
             SuspendLayout();
@@ -315,7 +315,8 @@
             // chkSendFile
             // 
             chkSendFile.AutoSize = true;
-            chkSendFile.Location = new Point(275, 592);
+            chkSendFile.ForeColor = Color.FromArgb(238, 26, 74);
+            chkSendFile.Location = new Point(237, 593);
             chkSendFile.Margin = new Padding(3, 4, 3, 4);
             chkSendFile.Name = "chkSendFile";
             chkSendFile.Size = new Size(239, 24);
@@ -440,28 +441,39 @@
             panelLeft.Size = new Size(376, 866);
             panelLeft.TabIndex = 36;
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.White;
+            label15.Location = new Point(0, 0);
+            label15.Margin = new Padding(4, 0, 4, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(83, 29);
+            label15.TabIndex = 3;
+            label15.Text = "Config";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // label14
             // 
-            label14.AutoSize = true;
             label14.Font = new Font("Microsoft Sans Serif", 150F, FontStyle.Underline, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.White;
-            label14.Location = new Point(47, 36);
+            label14.Location = new Point(4, 36);
             label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(286, 283);
+            label14.Size = new Size(364, 283);
             label14.TabIndex = 2;
             label14.Text = "X";
             label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
-            label12.AutoSize = true;
             label12.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.White;
-            label12.Location = new Point(132, 322);
+            label12.Location = new Point(4, 322);
             label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(97, 29);
+            label12.Size = new Size(364, 29);
             label12.TabIndex = 1;
             label12.Text = "Camara";
             label12.TextAlign = ContentAlignment.MiddleCenter;
@@ -524,19 +536,6 @@
             label13.Text = "x";
             label13.Click += label13_Click;
             // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.ForeColor = Color.White;
-            label15.Location = new Point(0, 0);
-            label15.Margin = new Padding(4, 0, 4, 0);
-            label15.Name = "label15";
-            label15.Size = new Size(83, 29);
-            label15.TabIndex = 3;
-            label15.Text = "Config";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // FrmConfig
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -550,6 +549,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Config";
             TopMost = true;
+            FormClosed += FrmConfig_FormClosed;
             Load += FrmConfig_Load;
             panelLeft.ResumeLayout(false);
             panelLeft.PerformLayout();

@@ -17,8 +17,7 @@ namespace distilled_community_recorder
     public partial class FrmConfig : Form
     {
 
-        string sitename = "WorkSite";
-        string camname = "cam";
+
 
 
         ConfigController _config = new ConfigController();
@@ -44,7 +43,7 @@ namespace distilled_community_recorder
             binding_config(_config.Config);
         }
 
-        void binding_config(ConfigModel model)
+        public void binding_config(ConfigModel model)
         {
             txtUrl1.Text = model.cam_1_Url;
             txtUrl2.Text = model.cam_2_Url;
@@ -59,7 +58,8 @@ namespace distilled_community_recorder
             txtsite.Text = model.cam_site;
             txtcam_prefix.Text = model.cam_prefix;
             label12.Text = model.cam_site;
-            label14.Text = model.cam_site.Substring(0, 1);
+            if (!string.IsNullOrEmpty(model.cam_site))
+                label14.Text = model.cam_site.Substring(0, 1);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -78,9 +78,11 @@ namespace distilled_community_recorder
             _configModel.server_rec_path = txtServerPath.Text;
 
             //-------------------
-            if (string.IsNullOrEmpty(txtsite.Text))
+            string sitename = "WorkSite";
+            string camname = "cam";
+            if (!string.IsNullOrEmpty(txtsite.Text))
                 sitename = txtsite.Text;
-            if (string.IsNullOrEmpty(txtcam_prefix.Text))
+            if (!string.IsNullOrEmpty(txtcam_prefix.Text))
                 camname = txtcam_prefix.Text;
 
             _configModel.cam_site = sitename;
@@ -88,7 +90,6 @@ namespace distilled_community_recorder
 
 
             _config.writeConfig(_configModel);
-
             MessageBox.Show("Config Saved.");
             this.Close();
         }
@@ -141,6 +142,7 @@ namespace distilled_community_recorder
             if (op.ShowDialog() == DialogResult.OK)
             {
                 string jsonString = File.ReadAllText(op.FileName);
+
                 var model = JsonSerializer.Deserialize<ConfigModel>(jsonString);
                 if (model != null)
                 {
@@ -200,6 +202,15 @@ namespace distilled_community_recorder
         {
             label14.Text = txtsite.Text.Substring(0, 1);
             label12.Text = txtsite.Text;
+        }
+
+        private void FrmConfig_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FrmMain frmMain = new FrmMain();
+            frmMain.Refresh();
+            Refresh();
+            frmMain.Hide();
+            frmMain.Show();
         }
     }
 }

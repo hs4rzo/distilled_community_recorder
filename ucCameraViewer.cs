@@ -20,8 +20,7 @@ namespace distilled_community_recorder
         //Mr.k
         FrmConfig frmConfig = new FrmConfig();
          ConfigController _config = new ConfigController();
-        CopyFolder.Program _copyFolder = new CopyFolder.Program();
-       
+        CopyFolder.Program _copyFolder = new CopyFolder.Program();       
         //-----------------
 
 
@@ -59,7 +58,7 @@ namespace distilled_community_recorder
             panel1.Controls.Add(vlcControl);
             // Set the path to the app libraries
             // TODO: auto download this libs after install or update.             
-            // var libDirectory = new DirectoryInfo(@"D:\appLibs"); Application.StartupPath
+             //var libDirectory = new DirectoryInfo(@"D:\appLibs"); 
               var libDirectory = new DirectoryInfo("" + Application.StartupPath + @"\appLibs");
             if (!libDirectory.Exists)
             {
@@ -86,86 +85,98 @@ namespace distilled_community_recorder
             string targetfolderpath = (@destpath + "\\" + sitename + "\\" + camname + "\\" + datename).Trim();
             string filename = camname + "_" + datename + "_" + timename + "_.MP4";
             string fullname = (@folderpath + "\\" + filename).Trim();
-
             try
             {
                 if (!Directory.Exists(folderpath))
                 {
                     DirectoryInfo di = Directory.CreateDirectory(folderpath);
                 }  else {
-                   _copyFolder.CopyAllFilesAndFolders(folderpath, targetfolderpath);
+                   _copyFolder.CopyAllFilesAndFolders(folderpath, targetfolderpath);                                        
+                   // Thread.Sleep(2000);
                 }
             }
             catch (IOException ioex)
             {
                 Console.WriteLine(ioex.Message);
-            }      
-
-            var mediaOptions = new string[] {   //E:\\REC_PATH\\output.mp4
+            }                   
+            var mediaOptions = new string[] {   
                ":sout=#duplicate{dst=display,dst=\"transcode{vcodec=h264,acodec=mpga}:standard{access=file,mux=ts,dst="+fullname+"}\"}",
                ":sout-keep",
                ":file-caching=3000" // ":segment-time=10"              
-            }; 
-            
-            UpdateStatusLabel("Initializing...");
+            };          
+
             if ( !string.IsNullOrEmpty(_rstpUrl) )
             {
                 try{
-                    vlcControl.Play(new Uri(_rstpUrl), mediaOptions);  
+                    UpdateStatusLabel("Initializing...");
+                    vlcControl.Play(new Uri(_rstpUrl), mediaOptions);    // "--rtsp-tcp"
+                    return;
                 }
                 catch (Exception ex)
                 {
                     message = "Connect to url FAIL!";
                 }
             }
+            UpdateStatusLabel("No Source...");
         }
 
 
         public void liveview()
         {
-            _config.getConfig();
           
-            UpdateStatusLabel("Initializing...");
             if (!string.IsNullOrEmpty(_rstpUrl))
             {
                 try
-                {
+                {                    
+                    UpdateStatusLabel("Initializing...");
                     vlcControl.Play(new Uri(_rstpUrl), "--rtsp-tcp");
+                    return;
                 }
                 catch (Exception ex)
                 {
                     message = "Connect to url FAIL!";
                 }
             }
+            UpdateStatusLabel("No Source...");
+            return;
         }
 
         public void stop()
         {
-            if(State == WORING_STATE.PLAING)
+            vlcControl.Stop();
+            vlcControl.ResetMedia();
+            return;
+            /*
+            if (State == WORING_STATE.PLAING)
             {
-                vlcControl.Stop();
-            }
-        }
-
+                vlcControl.Stop(); 
+            }  
+            */
+        }         
 
         private void OnPlaying(object sender, VlcMediaPlayerPlayingEventArgs e)
         {
-            UpdateStatusLabel("Stream is playing.");
+            
+            UpdateStatusLabel("Stream is playing.");          
+            
         }
 
         private void OnStopped(object sender, VlcMediaPlayerStoppedEventArgs e)
         {
-            UpdateStatusLabel("Stream has stopped.");
+            UpdateStatusLabel("Stream has stopped.");             
+            
         }
 
         private void OnEncounteredError(object sender, VlcMediaPlayerEncounteredErrorEventArgs e)
         {
-            UpdateStatusLabel("An error occurred.");
+            UpdateStatusLabel("An error occurred.");              
+            
         }
 
         private void OnEndReached(object sender, VlcMediaPlayerEndReachedEventArgs e)
         {
-            UpdateStatusLabel("Stream has ended.");
+            UpdateStatusLabel("Stream has ended.");          
+            
         }
 
         private void UpdateStatusLabel(string message)
