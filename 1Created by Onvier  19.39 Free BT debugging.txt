@@ -1,0 +1,1993 @@
+2024-08-25T03:19:22.601Z
+Created by Onvier  19.39 Free BT
+***********************************
+Debugging log from the single-view screen
+***********************************
+
+Android: 14
+Code Name: REL
+API:34
+Manufacturer: realme
+Model: RMX3840
+Available memory(MB): 2820.31640625
+Total memory(MB): 7421
+Threshold memory(MB): 432
+Low memory: false
+Network addresses: 
+rmnet_data0:fe80::b892:caff:feb2:7ae5%rmnet_data0	
+dummy0:fe80::787f:82ff:fe59:ae59%dummy0	
+wlan0:fe80::fc2c:1bff:fe9d:cd1d%wlan0	2405:9800:ba90:4ebf:fc2c:1bff:fe9d:cd1d	2405:9800:ba90:4ebf:3fec:4820:e684:304e	192.168.1.128	
+r_rmnet_data0:fe80::e440:37ff:fe66:dff2%r_rmnet_data0	
+rmnet_data2:fe80::40ea:a4ff:feee:57df%rmnet_data2	2001:44c8:4e49:7417:40ea:a4ff:feee:57df	
+lo:::1	127.0.0.1	
+rmnet_data4:fe80::e823:d6ff:fee8:7a85%rmnet_data4	2001:44c8:4d97:771a:e823:d6ff:fee8:7a85	
+ifb0:fe80::48f1:e0ff:fe0f:c85%ifb0	
+ifb2:fe80::1c1d:4aff:fed5:7886%ifb2	
+ifb1:fe80::9801:7cff:fecc:9d60%ifb1	
+Display Density: XX-High
+
+MediaCodec creation count: 1
+MediaCodec disposal count: 0
+Unreleased mediacodec: 
+Total: 1
+c2.qti.avc.decoder
+
+MediaCodec Release
+
+2024-08-25T03:17:56.264Z
+Discrepancy:
+Unreleased codec list size: 1
+Recorded count: 1
+The last added codec: null
+
+
+
+16
+2024-08-25T03:17:54.380Z	Logging queue: 0/100
+
+***********************************
+Debugging log from the single-view screen
+***********************************
+
+332
+2024-08-25T03:17:54.380Z	Logging queue: 1/100
+Video play has started.
+
+332
+2024-08-25T03:17:54.380Z	Logging queue: 0/100
+Orientation: AUTO
+
+332
+2024-08-25T03:17:54.382Z	Logging queue: 0/100
+Sending command: GetSystemDateAndTime Authentication time:null
+	http://192.168.1.239/onvif/device_service
+
+666
+2024-08-25T03:17:54.382Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+666
+2024-08-25T03:17:54.445Z	Logging queue: 0/100
+Screen tap.
+
+666
+2024-08-25T03:17:54.724Z	Logging queue: 0/100
+SOAP call succeeded.
+
+1334
+2024-08-25T03:17:54.724Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tds:GetSystemDateAndTimeResponse><tds:SystemDateAndTime><tt:DateTimeType>Manual</tt:DateTimeType>
+<tt:DaylightSavings>false</tt:DaylightSavings>
+<tt:TimeZone><tt:TZ>CST-8</tt:TZ>
+</tt:TimeZone>
+<tt:UTCDateTime><tt:Time><tt:Hour>3</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>56</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:UTCDateTime>
+<tt:LocalDateTime><tt:Time><tt:Hour>10</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>56</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:LocalDateTime>
+</tds:SystemDateAndTime>
+</tds:GetSystemDateAndTimeResponse>
+</env:Body>
+</env:Envelope>
+
+6446
+2024-08-25T03:17:54.727Z	Logging queue: 0/100
+Sending command: GetStreamUri Authentication time:Sun Aug 25 10:17:56 GMT+07:00 2024
+	http://192.168.1.239/onvif/Media
+
+6446
+2024-08-25T03:17:54.728Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+6446
+2024-08-25T03:17:55.277Z	Logging queue: 0/100
+SOAP call succeeded.
+
+6446
+2024-08-25T03:17:55.278Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><trt:GetStreamUriResponse><trt:MediaUri><tt:Uri>rtsp://192.168.1.239:554/0/av0</tt:Uri>
+<tt:InvalidAfterConnect>false</tt:InvalidAfterConnect>
+<tt:InvalidAfterReboot>false</tt:InvalidAfterReboot>
+<tt:Timeout>PT0S</tt:Timeout>
+</trt:MediaUri>
+</trt:GetStreamUriResponse>
+</env:Body>
+</env:Envelope>
+
+6446
+2024-08-25T03:17:55.287Z	Logging queue: 0/100
+Original streaming URL: rtsp://192.168.1.239:554/0/av0
+
+6446
+2024-08-25T03:17:55.288Z	Logging queue: 0/100
+For Streaming URL correction: ONVIF media service address URL host: 192.168.1.239, streaming address URI host: 192.168.1.239
+Original streaming URL: rtsp://192.168.1.239:554/0/av0
+Corrected streaming URL: rtsp://192.168.1.239:554/0/av0
+
+6446
+2024-08-25T03:17:55.288Z	Logging queue: 1/100
+Corrected streaming URL: rtsp://192.168.1.239:554/0/av0
+
+6446
+2024-08-25T03:17:55.298Z	Logging queue: 0/100
+StreamInfo saved.
+
+6446
+2024-08-25T03:17:55.336Z	Logging queue: 0/100
+Device type:ONVIF
+
+6446
+2024-08-25T03:17:55.344Z	Logging queue: 0/100
+Media 1 device. PTZ: true, Profile: mainStream
+
+6446
+2024-08-25T03:17:55.345Z	Logging queue: 0/100
+Screen Size(in): 6.32909
+
+12894
+2024-08-25T03:17:55.346Z	Logging queue: 0/100
+NVT host: 192.168.1.239
+
+12894
+2024-08-25T03:17:55.348Z	Logging queue: 0/100
+Sending command: GetSystemDateAndTime Authentication time:null
+	http://192.168.1.239/onvif/device_service
+
+12894
+2024-08-25T03:17:55.348Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+12894
+2024-08-25T03:17:55.817Z	Logging queue: 0/100
+SOAP call succeeded.
+
+12894
+2024-08-25T03:17:55.819Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tds:GetSystemDateAndTimeResponse><tds:SystemDateAndTime><tt:DateTimeType>Manual</tt:DateTimeType>
+<tt:DaylightSavings>false</tt:DaylightSavings>
+<tt:TimeZone><tt:TZ>CST-8</tt:TZ>
+</tt:TimeZone>
+<tt:UTCDateTime><tt:Time><tt:Hour>3</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>57</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:UTCDateTime>
+<tt:LocalDateTime><tt:Time><tt:Hour>10</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>57</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:LocalDateTime>
+</tds:SystemDateAndTime>
+</tds:GetSystemDateAndTimeResponse>
+</env:Body>
+</env:Envelope>
+
+12894
+2024-08-25T03:17:55.826Z	Logging queue: 0/100
+Request GetMoveOptions for imaging has been sent. Waiting for response and processing...
+
+12894
+2024-08-25T03:17:55.826Z	Logging queue: 0/100
+Sending command: GetMoveOptions Authentication time:Sun Aug 25 10:17:57 GMT+07:00 2024
+	http://192.168.1.239/onvif/Imaging
+
+12894
+2024-08-25T03:17:55.828Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+12894
+2024-08-25T03:17:56.329Z	Logging queue: 0/100
+ProtocolException for GetMoveOptions
+
+12894
+2024-08-25T03:17:56.329Z	Logging queue: 1/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:5)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+12894
+2024-08-25T03:17:56.451Z	Logging queue: 0/100
+Sending command: GetSystemDateAndTime Authentication time:null
+	http://192.168.1.239/onvif/device_service
+
+12894
+2024-08-25T03:17:56.452Z	Logging queue: 1/100
+Entering SOAP call loop. HTTPS: false
+
+12894
+2024-08-25T03:17:56.550Z	Logging queue: 0/100
+Sending command: GetSystemDateAndTime Authentication time:null
+	http://192.168.1.239/onvif/device_service
+
+12894
+2024-08-25T03:17:56.551Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+12894
+2024-08-25T03:17:56.840Z	Logging queue: 0/100
+Custom commands initializing...
+
+12894
+2024-08-25T03:17:56.840Z	Logging queue: 1/100
+Custom commands obtained device information.
+
+12894
+2024-08-25T03:17:56.902Z	Logging queue: 0/100
+SOAP call succeeded.
+
+12894
+2024-08-25T03:17:56.902Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tds:GetSystemDateAndTimeResponse><tds:SystemDateAndTime><tt:DateTimeType>Manual</tt:DateTimeType>
+<tt:DaylightSavings>false</tt:DaylightSavings>
+<tt:TimeZone><tt:TZ>CST-8</tt:TZ>
+</tt:TimeZone>
+<tt:UTCDateTime><tt:Time><tt:Hour>3</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>58</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:UTCDateTime>
+<tt:LocalDateTime><tt:Time><tt:Hour>10</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>58</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:LocalDateTime>
+</tds:SystemDateAndTime>
+</tds:GetSystemDateAndTimeResponse>
+</env:Body>
+</env:Envelope>
+
+25790
+2024-08-25T03:17:56.915Z	Logging queue: 0/100
+Sending command: GetPresets Authentication time:Sun Aug 25 10:17:58 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+25790
+2024-08-25T03:17:56.916Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+25790
+2024-08-25T03:17:57.446Z	Logging queue: 0/100
+ProtocolException for GetPresets
+
+25790
+2024-08-25T03:17:57.446Z	Logging queue: 1/100
+SOAP call succeeded.
+
+25790
+2024-08-25T03:17:57.449Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tds:GetSystemDateAndTimeResponse><tds:SystemDateAndTime><tt:DateTimeType>Manual</tt:DateTimeType>
+<tt:DaylightSavings>false</tt:DaylightSavings>
+<tt:TimeZone><tt:TZ>CST-8</tt:TZ>
+</tt:TimeZone>
+<tt:UTCDateTime><tt:Time><tt:Hour>3</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>58</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:UTCDateTime>
+<tt:LocalDateTime><tt:Time><tt:Hour>10</tt:Hour>
+<tt:Minute>17</tt:Minute>
+<tt:Second>58</tt:Second>
+</tt:Time>
+<tt:Date><tt:Year>2024</tt:Year>
+<tt:Month>8</tt:Month>
+<tt:Day>25</tt:Day>
+</tt:Date>
+</tt:LocalDateTime>
+</tds:SystemDateAndTime>
+</tds:GetSystemDateAndTimeResponse>
+</env:Body>
+</env:Envelope>
+
+25790
+2024-08-25T03:17:57.450Z	Logging queue: 0/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:5)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+25790
+2024-08-25T03:17:57.463Z	Logging queue: 0/100
+Sending command: SetSynchronizationPoint Authentication time:Sun Aug 25 10:17:57 GMT+07:00 2024
+	http://192.168.1.239/onvif/Media
+
+25790
+2024-08-25T03:17:57.466Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+25790
+2024-08-25T03:17:57.513Z	Logging queue: 0/100
+ProtocolException for SetSynchronizationPoint
+
+25790
+2024-08-25T03:17:57.513Z	Logging queue: 1/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:5)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+25790
+2024-08-25T03:17:58.951Z	Logging queue: 0/100
+Touch event: up
+
+25790
+2024-08-25T03:18:01.961Z	Logging queue: 0/100
+Touch event: up
+
+25790
+2024-08-25T03:18:01.962Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:02 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+25790
+2024-08-25T03:18:01.968Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+25790
+2024-08-25T03:18:01.974Z	Logging queue: 0/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:21)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+25790
+2024-08-25T03:18:01.974Z	Logging queue: 0/100
+Protocol error.  You may try again.
+
+25790
+2024-08-25T03:18:01.974Z	Logging queue: 0/100
+Unable to get imaging service move options.  Error: Protocol error.  You may try again.
+
+25790
+2024-08-25T03:18:02.697Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+25790
+2024-08-25T03:18:02.698Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:02 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+25790
+2024-08-25T03:18:02.702Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+25790
+2024-08-25T03:18:02.731Z	Logging queue: 0/100
+SOAP call succeeded.
+
+25790
+2024-08-25T03:18:02.733Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+25790
+2024-08-25T03:18:02.738Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 777
+Speed: x: 0.12 y: 0.027
+
+25790
+2024-08-25T03:18:02.738Z	Logging queue: 0/100
+Continuous P/T successful response.
+
+25790
+2024-08-25T03:18:02.784Z	Logging queue: 0/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:21)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+25790
+2024-08-25T03:18:02.785Z	Logging queue: 1/100
+Protocol error.  You may try again.
+
+25790
+2024-08-25T03:18:02.817Z	Logging queue: 0/100
+SOAP call succeeded.
+
+25790
+2024-08-25T03:18:02.817Z	Logging queue: 1/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:03.587Z	Logging queue: 0/100
+Exception: unexpected end of stream
+java.net.ProtocolException: unexpected end of stream
+	at com.android.okhttp.internal.http.Http1xStream$FixedLengthSource.read(Http1xStream.java:398)
+	at com.android.okhttp.okio.RealBufferedSource$1.read(RealBufferedSource.java:372)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:239)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:279)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at Y2.b.h(SourceFile:25)
+	at Y2.b.d(SourceFile:359)
+	at Y2.b.c(SourceFile:2)
+	at net.biyee.android.onvif.utilityONVIF.f0(SourceFile:21)
+	at net.biyee.android.onvif.utilityONVIF.v(SourceFile:1)
+	at net.biyee.android.onvif.B1.run(SourceFile:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+
+
+51582
+2024-08-25T03:18:03.589Z	Logging queue: 0/100
+Protocol error.  You may try again.
+
+51582
+2024-08-25T03:18:04.342Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:04.343Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:05 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:04.345Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:04.392Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:04.393Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:04.395Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 53
+Speed: x: 0.215 y: 0.035
+
+51582
+2024-08-25T03:18:04.395Z	Logging queue: 0/100
+Continuous P/T successful response.
+
+51582
+2024-08-25T03:18:05.478Z	Logging queue: 0/100
+TEMP. Long is.read(abBuffer, _iWriteStartIndex, iReadMax): 2579
+
+51582
+2024-08-25T03:18:05.598Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+51582
+2024-08-25T03:18:05.599Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:05 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:05.607Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:05.672Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:05.673Z	Logging queue: 1/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:05.949Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:05.951Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:06 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:05.953Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:05.993Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:05.993Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:05.994Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 44
+Speed: x: 0.19 y: 0.058
+
+51582
+2024-08-25T03:18:05.994Z	Logging queue: 0/100
+Continuous P/T successful response.
+
+51582
+2024-08-25T03:18:06.625Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:07.189Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+51582
+2024-08-25T03:18:07.189Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:06 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:07.192Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:07.233Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:07.233Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:07.827Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:07.828Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:08 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:07.831Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:07.862Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:07.863Z	Logging queue: 1/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:07.865Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 37
+Speed: x: 0.21 y: 0.055
+
+51582
+2024-08-25T03:18:07.865Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+51582
+2024-08-25T03:18:08.741Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:09.155Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+51582
+2024-08-25T03:18:09.156Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:08 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:09.159Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:09.206Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:09.206Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:11.153Z	Logging queue: 0/100
+bPTZActive upon entering DoContinuousPanTilt(): true
+
+51582
+2024-08-25T03:18:11.154Z	Logging queue: 1/100
+Starting continuous PT...
+
+51582
+2024-08-25T03:18:11.155Z	Logging queue: 0/100
+bPTZActive before sending ContinuousMove: true
+
+51582
+2024-08-25T03:18:11.156Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:12 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:11.158Z	Logging queue: 0/100
+entering bPTZActive watchdog: true
+
+51582
+2024-08-25T03:18:11.159Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:11.194Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:11.195Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:11.197Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 43
+Speed: x: 0.2 y: 0.0
+
+51582
+2024-08-25T03:18:11.197Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+51582
+2024-08-25T03:18:11.409Z	Logging queue: 0/100
+leaving bPTZActive watchdog: false
+
+51582
+2024-08-25T03:18:11.409Z	Logging queue: 1/100
+Sending stop command to stop either continuous or relative move.  bPTZActive: false
+
+51582
+2024-08-25T03:18:11.410Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:12 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:11.414Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:11.462Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:11.464Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:14.865Z	Logging queue: 0/100
+Touch event: up
+
+51582
+2024-08-25T03:18:15.912Z	Logging queue: 0/100
+bPTZActive upon entering DoContinuousPanTilt(): true
+
+51582
+2024-08-25T03:18:15.913Z	Logging queue: 0/100
+Starting continuous PT...
+
+51582
+2024-08-25T03:18:15.916Z	Logging queue: 0/100
+entering bPTZActive watchdog: true
+
+51582
+2024-08-25T03:18:15.916Z	Logging queue: 0/100
+bPTZActive before sending ContinuousMove: true
+
+51582
+2024-08-25T03:18:15.916Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:16 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:15.921Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:15.970Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:15.970Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+51582
+2024-08-25T03:18:15.972Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 59
+Speed: x: 0.2 y: 0.0
+
+51582
+2024-08-25T03:18:15.972Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+51582
+2024-08-25T03:18:16.167Z	Logging queue: 0/100
+leaving bPTZActive watchdog: false
+
+51582
+2024-08-25T03:18:16.167Z	Logging queue: 1/100
+Sending stop command to stop either continuous or relative move.  bPTZActive: false
+
+51582
+2024-08-25T03:18:16.168Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:16 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+51582
+2024-08-25T03:18:16.174Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+51582
+2024-08-25T03:18:16.249Z	Logging queue: 0/100
+SOAP call succeeded.
+
+51582
+2024-08-25T03:18:16.250Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:18.450Z	Logging queue: 0/100
+bPTZActive upon entering DoContinuousPanTilt(): true
+
+103166
+2024-08-25T03:18:18.452Z	Logging queue: 0/100
+Starting continuous PT...
+
+103166
+2024-08-25T03:18:18.454Z	Logging queue: 0/100
+entering bPTZActive watchdog: true
+
+103166
+2024-08-25T03:18:18.454Z	Logging queue: 1/100
+bPTZActive before sending ContinuousMove: true
+
+103166
+2024-08-25T03:18:18.455Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:19 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:18.459Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:18.506Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:18.507Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:18.510Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 58
+Speed: x: 0.2 y: 0.0
+
+103166
+2024-08-25T03:18:18.510Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+103166
+2024-08-25T03:18:18.705Z	Logging queue: 0/100
+leaving bPTZActive watchdog: false
+
+103166
+2024-08-25T03:18:18.705Z	Logging queue: 1/100
+Sending stop command to stop either continuous or relative move.  bPTZActive: false
+
+103166
+2024-08-25T03:18:18.705Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:19 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:18.708Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:18.760Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:18.761Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:21.601Z	Logging queue: 0/100
+bPTZActive upon entering DoContinuousPanTilt(): true
+
+103166
+2024-08-25T03:18:21.602Z	Logging queue: 0/100
+Starting continuous PT...
+
+103166
+2024-08-25T03:18:21.603Z	Logging queue: 0/100
+bPTZActive before sending ContinuousMove: true
+
+103166
+2024-08-25T03:18:21.603Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:22 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:21.603Z	Logging queue: 1/100
+entering bPTZActive watchdog: true
+
+103166
+2024-08-25T03:18:21.608Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:21.671Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:21.672Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:21.674Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 72
+Speed: x: -0.2 y: 0.0
+
+103166
+2024-08-25T03:18:21.674Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+103166
+2024-08-25T03:18:21.855Z	Logging queue: 0/100
+leaving bPTZActive watchdog: false
+
+103166
+2024-08-25T03:18:21.855Z	Logging queue: 1/100
+Sending stop command to stop either continuous or relative move.  bPTZActive: false
+
+103166
+2024-08-25T03:18:21.856Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:22 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:21.858Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:21.896Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:21.896Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:22.768Z	Logging queue: 0/100
+bPTZActive upon entering DoContinuousPanTilt(): true
+
+103166
+2024-08-25T03:18:22.769Z	Logging queue: 0/100
+Starting continuous PT...
+
+103166
+2024-08-25T03:18:22.772Z	Logging queue: 0/100
+bPTZActive before sending ContinuousMove: true
+
+103166
+2024-08-25T03:18:22.772Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:23 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:22.774Z	Logging queue: 1/100
+entering bPTZActive watchdog: true
+
+103166
+2024-08-25T03:18:22.779Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:22.824Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:22.824Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:22.827Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 57
+Speed: x: -0.2 y: 0.0
+
+103166
+2024-08-25T03:18:22.827Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+103166
+2024-08-25T03:18:23.025Z	Logging queue: 0/100
+leaving bPTZActive watchdog: false
+
+103166
+2024-08-25T03:18:23.025Z	Logging queue: 1/100
+Sending stop command to stop either continuous or relative move.  bPTZActive: false
+
+103166
+2024-08-25T03:18:23.025Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:23 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:23.028Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:23.082Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:23.083Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:28.051Z	Logging queue: 0/100
+Touch event: up
+
+103166
+2024-08-25T03:18:34.399Z	Logging queue: 0/100
+TEMP: show message: FREE version users please use the Gallery app of Android to access media files. 
+
+103166
+2024-08-25T03:18:34.399Z	Logging queue: 0/100
+FREE version users please use the Gallery app of Android to access media files. 
+
+103166
+2024-08-25T03:18:37.383Z	Logging queue: 0/100
+Touch event: up
+
+103166
+2024-08-25T03:18:37.386Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:18:38 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:37.389Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:37.397Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+103166
+2024-08-25T03:18:37.397Z	Logging queue: 0/100
+Sending command: Stop Authentication time:Sun Aug 25 10:18:38 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:18:37.400Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:18:37.456Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:37.456Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:18:37.458Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 74
+Speed: x: 0.001 y: -0.002
+
+103166
+2024-08-25T03:18:37.458Z	Logging queue: 0/100
+Continuous P/T successful response.
+
+103166
+2024-08-25T03:18:37.478Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:18:37.480Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:19:19.573Z	Logging queue: 0/100
+Touch event: up
+
+103166
+2024-08-25T03:19:19.574Z	Logging queue: 0/100
+Sending command: ContinuousMove Authentication time:Sun Aug 25 10:19:20 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:19:19.576Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:19:19.597Z	Logging queue: 0/100
+Sending stop command for continuous PTZ move...
+
+103166
+2024-08-25T03:19:19.597Z	Logging queue: 1/100
+Sending command: Stop Authentication time:Sun Aug 25 10:19:20 GMT+07:00 2024
+	http://192.168.1.239/onvif/PTZ
+
+103166
+2024-08-25T03:19:19.599Z	Logging queue: 0/100
+Entering SOAP call loop. HTTPS: false
+
+103166
+2024-08-25T03:19:19.645Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:19:19.646Z	Logging queue: 0/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:ContinuousMoveResponse/>
+</env:Body>
+</env:Envelope>
+
+103166
+2024-08-25T03:19:19.648Z	Logging queue: 0/100
+Continuous P/T.
+P/T Start Response Time (ms): 74
+Speed: x: -0.001 y: -0.003
+
+103166
+2024-08-25T03:19:19.648Z	Logging queue: 1/100
+Continuous P/T successful response.
+
+103166
+2024-08-25T03:19:19.672Z	Logging queue: 0/100
+SOAP call succeeded.
+
+103166
+2024-08-25T03:19:19.672Z	Logging queue: 1/100
+Processed response: <?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tst="http://www.onvif.org/ver10/storage/wsdl" xmlns:ter="http://www.onvif.org/ver10/error" xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns:tns1="http://www.onvif.org/ver10/topics" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:gte="http://www.onvif.org/ver10/gtextension/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12" xmlns:http="http://schemas.xmlsoap.org/wsdl/http" xmlns:d="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:wsadis="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsntw="http://docs.oasis-open.org/wsn/bw-2" xmlns:wsrf-rw="http://docs.oasis-open.org/wsrf/rw-2" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsrf-r="http://docs.oasis-open.org/wsrf/r-2" xmlns:tnsn="http://www.eventextension.com/2011/event/topics"><env:Body><tptz:StopResponse/>
+</env:Body>
+</env:Envelope>
+
+********* Debugging log for video streaming *********
+**************** Starting video streaming **************** 
+
+Starting debugging Log. 2024-08-25T03:17:54.366Z
+
+2024-08-25T03:17:54.367Z
+VideoStreamingFragment has been created.
+
+2024-08-25T03:17:55.336Z
+For obPro.get(),  obTalkable set to false
+
+2024-08-25T03:17:55.338Z
+Initializing without starting recording.
+
+2024-08-25T03:17:55.338Z
+initializeStreaming() for cam1
+
+2024-08-25T03:17:55.338Z
+Entered streamVideo().
+
+2024-08-25T03:17:55.339Z
+Entered the thread of streamVideo().
+
+2024-08-25T03:17:55.340Z
+Starting streaming for device: cam1, type: ONVIF
+
+2024-08-25T03:17:55.341Z
+Starting RTSP decoder...
+
+2024-08-25T03:17:55.344Z
+PTZ device
+
+2024-08-25T03:17:55.345Z
+No outgoing audio for the FREE version.
+obTalkable set to false
+
+2024-08-25T03:17:55.345Z
+goFullScreen
+
+2024-08-25T03:17:55.345Z
+Set full-screen: -1x-1
+
+2024-08-25T03:17:55.346Z
+Stretch view from setMultiViewFullScreen.
+
+2024-08-25T03:17:55.687Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:17:56.438Z
+Stretching all fragments started from  192.168.1.239
+
+2024-08-25T03:17:56.848Z
+Starting a thread to stretch the view. Resolution: 1280x720
+
+2024-08-25T03:17:56.849Z
+Stretching the view. Video resolution: 1280x720
+
+2024-08-25T03:17:56.849Z
+Set relativelayoutDisplay Margins to 0. 
+android.widget.RelativeLayout$LayoutParams@9ca344c
+
+2024-08-25T03:17:56.861Z
+Set the layout parameters of surfaceViewBiyee: 1074x604
+rtspDecoder video resolution: 1280x720
+fScaleX: 0.8390625, fScaleY: 0.8390625
+_surfaceViewBiyee actual size: 1074x2294
+
+2024-08-25T03:17:56.861Z
+Set the layout parameters of surfaceViewBiyee: 1074x604
+rtspDecoder video resolution: 1280x720
+fScaleX: 0.8390625, fScaleY: 0.8390625
+_surfaceViewBiyee actual size: 1074x2294
+
+2024-08-25T03:17:57.749Z
+Starting a thread to stretch the view. Resolution: 1280x720
+
+2024-08-25T03:17:57.750Z
+Stretching the view. Video resolution: 1280x720
+
+2024-08-25T03:17:57.750Z
+Set relativelayoutDisplay Margins to 0. 
+android.widget.RelativeLayout$LayoutParams@9ca344c
+
+2024-08-25T03:17:57.751Z
+Set the layout parameters of surfaceViewBiyee: 1074x604
+rtspDecoder video resolution: 1280x720
+fScaleX: 0.8390625, fScaleY: 0.8390625
+_surfaceViewBiyee actual size: 1074x604
+
+2024-08-25T03:17:57.758Z
+Set the layout parameters of surfaceViewBiyee: 1074x604
+rtspDecoder video resolution: 1280x720
+fScaleX: 0.8390625, fScaleY: 0.8390625
+_surfaceViewBiyee actual size: 1074x604
+
+2024-08-25T03:17:58.348Z
+Video resolution: 1280x720
+
+2024-08-25T03:17:58.945Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:18:04.215Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:18:08.722Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:18:11.148Z
+Pan-right button pressed.
+
+2024-08-25T03:18:11.149Z
+Executing ONVIF PT command...
+
+2024-08-25T03:18:11.165Z
+Do nothing for imageButtonRight action: 2
+
+2024-08-25T03:18:11.271Z
+Pan-right button released.
+
+2024-08-25T03:18:11.271Z
+bPTZActive.bValue set to false
+
+2024-08-25T03:18:14.732Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:18:15.904Z
+Pan-right button pressed.
+
+2024-08-25T03:18:15.904Z
+Executing ONVIF PT command...
+
+2024-08-25T03:18:16.016Z
+Pan-right button released.
+
+2024-08-25T03:18:16.016Z
+bPTZActive.bValue set to false
+
+2024-08-25T03:18:18.449Z
+Pan-right button pressed.
+
+2024-08-25T03:18:18.450Z
+Executing ONVIF PT command...
+
+2024-08-25T03:18:18.571Z
+Do nothing for imageButtonRight action: 2
+
+2024-08-25T03:18:18.599Z
+Pan-right button released.
+
+2024-08-25T03:18:18.599Z
+bPTZActive.bValue set to false
+
+2024-08-25T03:18:21.601Z
+Pan-left button pressed.
+
+2024-08-25T03:18:21.601Z
+Executing ONVIF PT command...
+
+2024-08-25T03:18:21.723Z
+Do nothing for imageButtonLeft action: 2
+
+2024-08-25T03:18:21.734Z
+Do nothing for imageButtonLeft action: 2
+
+2024-08-25T03:18:21.735Z
+Pan-left button released.
+
+2024-08-25T03:18:21.735Z
+bPTZActive.bValue set to false
+
+2024-08-25T03:18:22.767Z
+Pan-left button pressed.
+
+2024-08-25T03:18:22.767Z
+Executing ONVIF PT command...
+
+2024-08-25T03:18:22.892Z
+Do nothing for imageButtonLeft action: 2
+
+2024-08-25T03:18:22.931Z
+Pan-left button released.
+
+2024-08-25T03:18:22.931Z
+bPTZActive.bValue set to false
+
+2024-08-25T03:18:28.009Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:18:37.286Z
+obShowChildFragment: falseobCustomCommands: false
+
+2024-08-25T03:19:19.617Z
+obShowChildFragment: falseobCustomCommands: false
+Repeating Messages:
+^^^^^^^^^^^^^^^^ end of log ^^^^^^^^^^^^^^^^
+
+
+**************** Debugging log for RTSP stream **************** 
+
+Starting debugging Log. 2024-08-25T03:17:55.442Z
+
+2024-08-25T03:17:55.442Z
+rtsp://192.168.1.239:554/0/av0
+
+2024-08-25T03:17:55.442Z
+RTSPDecoder has a valid activity.
+
+2024-08-25T03:17:55.444Z
+Stream URL:rtsp://192.168.1.239:554/0/av0
+Transport protocol: RTSP
+
+2024-08-25T03:17:55.444Z
+
+Using retrieved port:554
+
+2024-08-25T03:17:55.444Z
+Establishing communication channels...
+
+2024-08-25T03:17:55.444Z
+CheckNetworkConnection before initiating the data receving socket.
+
+2024-08-25T03:17:55.445Z
+Set the thread priority for instantiateDataReceivingSocket().
+
+2024-08-25T03:17:55.446Z
+instantiateDataReceivingSocket has been called without an ongoing previous call.
+
+2024-08-25T03:17:55.447Z
+Waiting for the end of the previous stream if any.  State: Connecting
+
+2024-08-25T03:17:55.448Z
+_bStopMediaCodecLoop set to true.  state is set to State.Connecting.
+
+2024-08-25T03:17:55.448Z
+Connecting to the RTSP server...
+
+2024-08-25T03:17:55.459Z
+Socket is connected. Starting communication...
+
+2024-08-25T03:17:55.459Z
+Send DESCRIBE without backchannel
+
+2024-08-25T03:17:55.459Z
+Sent RTSP command:DESCRIBE, Authentication: None, CSeq: 0, Session: null, backchannel audio: false
+
+2024-08-25T03:17:55.561Z
+RTSP response (listTextData size:  538):
+RTSP/1.0 200 OK
+CSeq: 0
+Server: TAS-Tech Streaming Server V100R001
+Content-Type: application/sdp
+Content-length: 414
+
+v=0
+o=StreamingServer 3331435948 1116907222000 IN IP4 192.168.1.239
+s=h264.mp4
+i=TAS-Tech Live Cast
+c=IN IP4 192.168.1.239
+t=0 0
+a=recvonly
+a=range:npt=now-
+m=video 0 RTP/AVP 96
+a=control:rtsp://192.168.1.239:554/0/video0
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1
+a=framesize:96 1280-720
+m=audio 0 RTP/AVP 8
+a=control:rtsp://192.168.1.239:554/0/audio
+a=rtpmap:8 pcma/8000
+a=ptime:40
+
+
+
+2024-08-25T03:17:55.562Z
+Requested media description has been received. Setting up media...
+
+2024-08-25T03:17:55.562Z
+No backchannel audio.
+
+2024-08-25T03:17:55.562Z
+Payload type: 96
+
+2024-08-25T03:17:55.562Z
+H.264/H.265 encoded video.
+
+2024-08-25T03:17:55.562Z
+Video encoding name: H264
+
+2024-08-25T03:17:55.562Z
+Video payload format: a=fmtp:96 packetization-mode=1
+
+2024-08-25T03:17:55.563Z
+H.264 video stream.
+
+2024-08-25T03:17:55.563Z
+H.264 sprop_parameter_sets not found.  Increase _iH264InitializationSizeMax to: 100
+
+2024-08-25T03:17:55.563Z
+Sent RTSP command:SETUP, Authentication: None, CSeq: 1, Session: null, backchannel audio: false
+
+2024-08-25T03:17:55.605Z
+Audio payload type: 8 audio encoding: G.711 A-Law
+
+2024-08-25T03:17:55.605Z
+RTSP response (listTextData size:  165):
+RTSP/1.0 200 OK
+CSeq: 1
+Server: TAS-Tech Streaming Server V100R001
+Session: 6ZP2JCeP0073; timeout=60
+Transport: RTP/AVP/TCP;unicast;interleaved=0-1;mode=play
+
+
+
+2024-08-25T03:17:55.605Z
+Final session timeout (s): 60
+
+2024-08-25T03:17:55.605Z
+Set up audio after video setup is finished.
+
+2024-08-25T03:17:55.605Z
+Sent RTSP command:SETUP, Authentication: None, CSeq: 2, Session: 6ZP2JCeP0073, backchannel audio: false
+
+2024-08-25T03:17:55.606Z
+Requesting audio streaming setup with the below audio control URL: 
+rtsp://192.168.1.239:554/0/audio
+
+2024-08-25T03:17:55.907Z
+Sent RTSP command:PLAY, Authentication: None, CSeq: 3, Session: 6ZP2JCeP0073, backchannel audio: false
+
+2024-08-25T03:17:55.907Z
+Requesting media play...
+
+2024-08-25T03:17:55.907Z
+RTSP response (listTextData size:  165):
+RTSP/1.0 200 OK
+CSeq: 2
+Server: TAS-Tech Streaming Server V100R001
+Session: 6ZP2JCeP0073; timeout=60
+Transport: RTP/AVP/TCP;unicast;interleaved=2-3;mode=play
+
+
+
+2024-08-25T03:17:56.009Z
+RTSP response (listTextData size:  72):
+RTSP/1.0 200 OK
+CSeq: 3
+Server: TAS-Tech Streaming Server V100R001
+
+
+
+2024-08-25T03:17:56.009Z
+Video play command has been acknowledged.
+
+2024-08-25T03:17:56.110Z
+Audio start time (ms): 666
+
+2024-08-25T03:17:56.110Z
+Video start time (ms): 666
+
+2024-08-25T03:17:56.110Z
+SPS has been obtained from payload for H.264.
+
+2024-08-25T03:17:56.211Z
+This device does not have correct H.264 configuration parameters.  Onvier is trying an alternative.
+
+2024-08-25T03:17:56.211Z
+Used SPS: 474d001f99a014016e8400000fa00001731a10
+
+2024-08-25T03:17:56.211Z
+Resolution: 1280x720
+
+2024-08-25T03:17:56.211Z
+Creating H.26X decoder...
+
+2024-08-25T03:17:56.263Z
+MediaCodecEx created. Name: c2.qti.avc.decoder
+
+2024-08-25T03:17:56.263Z
+Using hardware H.264 decoder: c2.qti.avc.decoder
+
+2024-08-25T03:17:56.263Z
+Media codec name: c2.qti.avc.decoder
+
+2024-08-25T03:17:56.277Z
+Starting startH26XDecodingV2Async() and setting _lH264DecodingStartTimeMs...
+
+2024-08-25T03:17:56.310Z
+Starting H.26x decoding. rtsp://192.168.1.239:554/0/av0
+
+2024-08-25T03:17:56.310Z
+Starting sending data to H.26x codec. rtsp://192.168.1.239:554/0/av0
+
+2024-08-25T03:17:56.311Z
+Starting processing data from H.26x codec. rtsp://192.168.1.239:554/0/av0
+
+2024-08-25T03:17:56.311Z
+Received IDR
+
+2024-08-25T03:17:56.356Z
+INFO_OUTPUT_FORMAT_CHANGED
+
+2024-08-25T03:17:56.408Z
+random dequed buffer size: 1
+
+2024-08-25T03:17:56.408Z
+H.26x decoding succeeded. bVideoPlayWorking: true
+
+2024-08-25T03:17:56.408Z
+state is set to State.Streaming.
+
+2024-08-25T03:18:05.478Z
+TEMP. Long cbbData.WriteFromStream(is): 2580
+Total data: 1126
+
+2024-08-25T03:18:05.478Z
+Long date receiving gap:2580
+iRead: 135
+
+2024-08-25T03:18:05.500Z
+Long data receiving gap (MS): 2509
+cbbData.getDataLength(): 1126
+
+2024-08-25T03:18:05.602Z
+Response (listTextData size:  1517):
+__T__TU_UW__WU_TT__V__WT_UW__W__TT__W__TU_UT__T__UU_UU_UU__T__TU_UT__T__TU_TT_UT__W__TU_UU__T__T
+
+2024-08-25T03:18:05.602Z
+Removed characters in listTextData: 969
+Current listTextData length: 548
+
+2024-08-25T03:19:00.974Z
+88_jC__
+%%_A__\__Y_'_
+~_
+\O
+___OA__@_______RM_____S_H___m_3__V)__
+2
+___>z:]jCf7_51	^__JR__b_a_K__3_2_0_C__,_._o_______U*9._SYL___#_l%/_.@a______:Y/_s___9<gh__>__B_$YD_
+_d_Zod_____p____________<__
+_____xy_EA_S__________
+lrm____	____W__K_u_(__l___x9e___kOO_'|_8__}___-_)_e"?1x__^K7bL_@_____A___m__E___}_
+{y_[_:___@_w
+_L_
+___3___!DiB:_)_Ol1__{______c_____F____j__r_|cS_3'@___8SGE ee___W__2=__F_\C___t]____V_______x__T
+_y___I_______~_____HvC]___S____:{__Q_[R_____E_**F.____dql__\__D
+]_____/_5__RTSP/1.0 200 OK
+CSeq: 5
+Server: TAS-Tech Streaming Server V100R001
+Public: DESCRIBE, SET_PARAMETER, SETUP, TEARDOWN, PAUSE, PLAY
+
+
+Repeating Messages:
+Sent keep-alive commands.: 2
+ProcessData() is taking too long.: 1
+Response to OPTIONS:
+88_jC__
+%%_A__\__Y_'_
+~_
+\O
+___OA__@_______RM_____S_H___m_3__V)__
+2
+___>z:]jCf7_51	^__JR__b_a_K__3_2_0_C__,_._o_______U*9._SYL___#_l%/_.@a______:Y/_s___9<gh__>__B_$YD_
+_d_Zod_____p____________<__
+_____xy_EA_S__________
+lrm____	____W__K_u_(__l___x9e___kOO_'|_8__}___-_)_e"?1x__^K7bL_@_____A___m__E___}_
+{y_[_:___@_w
+_L_
+___3___!DiB:_)_Ol1__{______c_____F____j__r_|cS_3'@___8SGE ee___W__2=__F_\C___t]____V_______x__T
+_y___I_______~_____HvC]___S____:{__Q_[R_____E_**F.____dql__\__D
+]_____/_5__RTSP/1.0 200 OK: 1
+Sent RTSP command:OPTIONS, Authentication: None, Session: 6ZP2JCeP0073, backchannel audio: false: 2
+^^^^^^^^^^^^^^^^ end of log ^^^^^^^^^^^^^^^^
+
+
+Resolution: 1280x720
+Encoding: H264
+Hardware H.264 codec	Software H.265 codec
+Transport Protocol: RTSP
+RTP packets received: 5955
+Video RTP packets received: 5796
+Audio RTP packets received: 159
+RTP packets lost: 0
+Frame rate (fps): 11.5
+Frames received: 990
+Data Rate (Mbit/s): 0.698
+H.26x frame queue length: 0
+H.26x codec input buffer waiting time(s): 0
+H.26x codec output buffer waiting time(s): 85
+H.26x codec output buffer rendering time(s): 2
+H.26x skipped rendered frame count: 0
+Video RTP receiving channel #: 0
+Video RTCP receiving channel #: 1
+Video RTP sending port: -1
+Video RTCP sending port: -1
+Audio RTP receiving channel #: 2
+Audio RTCP receiving channel #: 3
+Audio RTP sending port: -1
+Audio RTCP sending port: -1
+
+Average audio volume: 0.0
+
+Backchannel audio RTP receiving channel #: -1
+Backchannel audio RTCP receiving channel #: -1
+Backchannel audio RTP sending port: -1
+Backchannel audio RTCP sending port: -1
+Backchannel audio clock rate (HZ): 0
+RTP packet interval (100MS : frequency)
+0: 4971
+1: 752
+2: 21
+3: 1
+7: 1
+26: 1
+H26X payload queue size frequency (Queue size:frequency)
+1: 671
+2: 308
+3: 50
+4: 18
+5: 1
+H26X output buffer wait time (time between each available codec output buffer index that will be used for rendering) frequency (100MS : frequency)
+0: 530
+1: 359
+2: 92
+3: 5
+7: 1
+28: 1
+H26X decoding interval(interval between the end of rendering and the next available output buffer index for rendering) frequency (100MS : frequency)
+0: 587
+1: 321
+2: 74
+3: 4
+7: 1
+28: 1
+_queueH26xPayloadDataFrame size: 0
+_queueH26xPayloadDataFrame remaining capacity: 64
+Codec data feeding count: 1048
+Codec data reading count: 988
+Codec data rendering count: 988
+Encoding NAL type count:
+1:962
+5:28
+7:29
+8:29
+No back channel RTSP decoder.Preferece access interval frequency (interval (10ms):frequency)
+0: 3
+1: 2
+2: 2
+8: 1
+11: 1
+14: 1
+16: 2
+30: 5
+90: 1
+100: 8
+
+Video Decoder: 
+c2.qti.avc.decoder
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.avc
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.avc.decoder.low_latency
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.avc.low_latency
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.avc.decoder.secure
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.avc.secure
+	video/avc	, AVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.hevc.decoder
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.hevc
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.hevc.decoder.low_latency
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.hevc.low_latency
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.hevc.decoder.secure
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+OMX.qcom.video.decoder.hevc.secure
+	video/hevc	, HEVC codec supported width: [96, 4096], height: [96, 4096]
+c2.qti.vp9.decoder
+	video/x-vnd.on2.vp9	, 
+OMX.qcom.video.decoder.vp9
+	video/x-vnd.on2.vp9	, 
+c2.qti.vp9.decoder.low_latency
+	video/x-vnd.on2.vp9	, 
+OMX.qcom.video.decoder.vp9.low_latency
+	video/x-vnd.on2.vp9	, 
+c2.qti.vp9.decoder.secure
+	video/x-vnd.on2.vp9	, 
+OMX.qcom.video.decoder.vp9.secure
+	video/x-vnd.on2.vp9	, 
+c2.android.av1.decoder
+	video/av01	, 
+c2.android.avc.decoder
+	video/avc	, AVC codec supported width: [2, 4080], height: [2, 4080]
+OMX.google.h264.decoder
+	video/avc	, AVC codec supported width: [2, 4080], height: [2, 4080]
+c2.android.h263.decoder
+	video/3gpp	, 
+OMX.google.h263.decoder
+	video/3gpp	, 
+c2.android.hevc.decoder
+	video/hevc	, HEVC codec supported width: [2, 4096], height: [2, 4096]
+OMX.google.hevc.decoder
+	video/hevc	, HEVC codec supported width: [2, 4096], height: [2, 4096]
+c2.android.mpeg4.decoder
+	video/mp4v-es	, 
+OMX.google.mpeg4.decoder
+	video/mp4v-es	, 
+c2.android.vp8.decoder
+	video/x-vnd.on2.vp8	, 
+OMX.google.vp8.decoder
+	video/x-vnd.on2.vp8	, 
+c2.android.vp9.decoder
+	video/x-vnd.on2.vp9	, 
+OMX.google.vp9.decoder
+	video/x-vnd.on2.vp9	, 
+c2.android.av1-dav1d.decoder
+	video/av01	, 
+
+Audio Decoder: 
+c2.qti.alac.sw.decoder
+	audio/alac	, 
+c2.qti.ape.sw.decoder
+	audio/x-ape	, 
+c2.qti.evrc.sw.decoder
+	audio/evrc	, 
+c2.qti.qcelp.sw.decoder
+	audio/qcelp	, 
+c2.qti.amrwbplus.hw.decoder
+	audio/amr-wb-plus	, 
+c2.qti.wma.hw.decoder
+	audio/x-ms-wma	, 
+c2.qti.alac.hw.decoder
+	audio/alac	, 
+c2.qti.ape.hw.decoder
+	audio/x-ape	, 
+c2.dolby.ac4.decoder
+	audio/ac4	, 
+OMX.dolby.ac4.decoder
+	audio/ac4	, 
+c2.dolby.eac3.decoder
+	audio/ac3	, 
+	audio/eac3	, 
+	audio/eac3-joc	, 
+c2.android.aac.decoder
+	audio/mp4a-latm	, 
+OMX.google.aac.decoder
+	audio/mp4a-latm	, 
+c2.android.amrnb.decoder
+	audio/3gpp	, 
+OMX.google.amrnb.decoder
+	audio/3gpp	, 
+c2.android.amrwb.decoder
+	audio/amr-wb	, 
+OMX.google.amrwb.decoder
+	audio/amr-wb	, 
+c2.android.flac.decoder
+	audio/flac	, 
+OMX.google.flac.decoder
+	audio/flac	, 
+c2.android.g711.alaw.decoder
+	audio/g711-alaw	, 
+OMX.google.g711.alaw.decoder
+	audio/g711-alaw	, 
+c2.android.g711.mlaw.decoder
+	audio/g711-mlaw	, 
+OMX.google.g711.mlaw.decoder
+	audio/g711-mlaw	, 
+c2.android.mp3.decoder
+	audio/mpeg	, 
+OMX.google.mp3.decoder
+	audio/mpeg	, 
+c2.android.opus.decoder
+	audio/opus	, 
+OMX.google.opus.decoder
+	audio/opus	, 
+c2.android.raw.decoder
+	audio/raw	, 
+OMX.google.raw.decoder
+	audio/raw	, 
+c2.android.vorbis.decoder
+	audio/vorbis	, 
+OMX.google.vorbis.decoder
+	audio/vorbis	, 
+OMX.google.gsm.decoder
+	audio/gsm	, 
+c2.qti.flac.sw.decoder
+	audio/flac	, 
+
+Video Encoder: 
+c2.qti.avc.encoder
+	video/avc	, AVC codec supported width: [128, 4096], height: [128, 4096]
+OMX.qcom.video.encoder.avc
+	video/avc	, AVC codec supported width: [128, 4096], height: [128, 4096]
+c2.qti.hevc.encoder
+	video/hevc	, HEVC codec supported width: [128, 4096], height: [128, 4096]
+OMX.qcom.video.encoder.hevc
+	video/hevc	, HEVC codec supported width: [128, 4096], height: [128, 4096]
+c2.qti.hevc.encoder.cq
+	video/hevc	, HEVC codec supported width: [128, 512], height: [128, 512]
+OMX.qcom.video.encoder.hevc.cq
+	video/hevc	, HEVC codec supported width: [128, 512], height: [128, 512]
+c2.android.av1.encoder
+	video/av01	, 
+c2.android.avc.encoder
+	video/avc	, AVC codec supported width: [16, 2048], height: [16, 2048]
+OMX.google.h264.encoder
+	video/avc	, AVC codec supported width: [16, 2048], height: [16, 2048]
+c2.android.h263.encoder
+	video/3gpp	, 
+OMX.google.h263.encoder
+	video/3gpp	, 
+c2.android.hevc.encoder
+	video/hevc	, HEVC codec supported width: [2, 512], height: [2, 512]
+c2.android.mpeg4.encoder
+	video/mp4v-es	, 
+OMX.google.mpeg4.encoder
+	video/mp4v-es	, 
+c2.android.vp8.encoder
+	video/x-vnd.on2.vp8	, 
+OMX.google.vp8.encoder
+	video/x-vnd.on2.vp8	, 
+c2.android.vp9.encoder
+	video/x-vnd.on2.vp9	, 
+OMX.google.vp9.encoder
+	video/x-vnd.on2.vp9	, 
+
+Audio Encoder: 
+c2.qti.evrc.hw.encoder
+	audio/evrc	, 
+c2.qti.qcelp.hw.encoder
+	audio/qcelp	, 
+c2.android.aac.encoder
+	audio/mp4a-latm	, 
+OMX.google.aac.encoder
+	audio/mp4a-latm	, 
+c2.android.amrnb.encoder
+	audio/3gpp	, 
+OMX.google.amrnb.encoder
+	audio/3gpp	, 
+c2.android.amrwb.encoder
+	audio/amr-wb	, 
+OMX.google.amrwb.encoder
+	audio/amr-wb	, 
+c2.android.flac.encoder
+	audio/flac	, 
+OMX.google.flac.encoder
+	audio/flac	, 
+c2.android.opus.encoder
+	audio/opus	, 
+c2.qti.heic.encoder
+	image/vnd.android.heic	, 
+OMX.qcom.video.encoder.heic
+	image/vnd.android.heic	, 
+c2.qti.aac.hw.encoder
+	audio/mp4a-latm	, 
+c2.qti.amrnb.hw.encoder
+	audio/3gpp	, 
+c2.qti.amrwb.hw.encoder
+	audio/amr-wb	, 
